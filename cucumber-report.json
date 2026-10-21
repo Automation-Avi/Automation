@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-in-the-apps",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "login in the apps",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "step_definitions\\loginCheck.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 616499,
+              "error_message": "Error: function uses multiple asynchronous interfaces: callback and promise\nto use the callback interface: do not return a promise\nto use the promise interface: remove the last argument to the function\n    at Object.run (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:35:24)\n    at D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:64:114\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)\n    at runInTestCaseScope (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\scope\\test_case_scope.js:9:26)\n    at Object.run (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:64:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TestCaseRunner.invokeStep (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:126:16)\n    at async TestCaseRunner.runStep (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:307:26)\n    at async D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:214:44\n    at async TestCaseRunner.aroundTestStep (D:\\Abhishek\\Automation\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:154:32)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter username and password",
+            "match": {
+              "location": "step_definitions\\loginCheck.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "step_definitions\\loginCheck.js:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be login successfully",
+            "match": {
+              "location": "step_definitions\\loginCheck.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login Functionality",
+    "tags": [],
+    "uri": "features\\loginCheck.feature"
+  }
+]
